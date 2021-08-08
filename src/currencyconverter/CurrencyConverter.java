@@ -1,4 +1,4 @@
-package mypackage;
+package currencyconverter;
 // Justin Cordero
 // Description U2 PA1
 // 8/8/2021
@@ -64,7 +64,7 @@ public class CurrencyConverter extends JFrame {
                 dracField.setText(textString);
             }
             catch(NumberFormatException e) {
-                JOptionPane.showMessageDialog(null, "Plese enter a valid number", "Error", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Please enter a valid number", "Error", JOptionPane.ERROR_MESSAGE);
                 // clear fields on error
                 dollarField.setText("");
                 dracField.setText("");

@@ -3,7 +3,7 @@
  * U2PA1
  * 8/8/2021
  * */
-package mypackage;
+package currencyconverter;
 
 import javax.swing.JFrame;
 
